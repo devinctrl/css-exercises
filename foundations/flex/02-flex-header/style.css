@@ -1,4 +1,4 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
 }
@@ -23,3 +23,19 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 8px;
+}
+
+
